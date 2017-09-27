@@ -54,7 +54,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="5" fill="1" visible="yes" active="yes"/>
@@ -694,6 +694,8 @@
 <wire x1="332.75" y1="19" x2="332.75" y2="5" width="0.001" layer="50"/>
 <wire x1="332.75" y1="5" x2="346.75" y2="5" width="0.001" layer="50"/>
 <wire x1="346.75" y1="5" x2="346.75" y2="19" width="0.001" layer="50"/>
+<dimension x1="0" y1="123.75" x2="375.5" y2="123.75" x3="187.75" y3="134.95" textsize="1.778" layer="47"/>
+<dimension x1="375.5" y1="0" x2="375.5" y2="123.75" x3="384.5" y3="61.875" textsize="1.778" layer="47"/>
 </plain>
 <libraries>
 <library name="resistor" urn="urn:adsk.eagle:library:348">
@@ -2263,6 +2265,81 @@ design rules under a new name.</description>
 <element name="SW15" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="320.75" y="111.75" rot="R180"/>
 <element name="SW16" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="339.75" y="111.75" rot="R180"/>
 <element name="SW17" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="363.5" y="111.75" rot="R180"/>
+<element name="SW18" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="11.1" y="89.45" rot="R180"/>
+<element name="SW19" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="32.2" y="88.8" rot="R180"/>
+<element name="SW20" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="50" y="89.45" rot="R180"/>
+<element name="SW21" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="68.9" y="88.65" rot="R180"/>
+<element name="SW22" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="86.6" y="88.05" rot="R180"/>
+<element name="SW23" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="105.55" y="88.55" rot="R180"/>
+<element name="SW24" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="125.15" y="87.85" rot="R180"/>
+<element name="SW25" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="145" y="87.85" rot="R180"/>
+<element name="SW26" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="164.1" y="88.85" rot="R180"/>
+<element name="SW27" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="183.25" y="87.55" rot="R180"/>
+<element name="SW28" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="201.75" y="88" rot="R180"/>
+<element name="SW29" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="221.15" y="88.65" rot="R180"/>
+<element name="SW30" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="240" y="88.8" rot="R180"/>
+<element name="SW31" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="269.45" y="87.2" rot="R180"/>
+<element name="SW32" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="302.7" y="88.1" rot="R180"/>
+<element name="SW33" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="320.5" y="87.45" rot="R180"/>
+<element name="SW34" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="337.7" y="88.4" rot="R180"/>
+<element name="SW35" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="366.6" y="88.4" rot="R180"/>
+<element name="SW36" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="15.8" y="68.95" rot="R180"/>
+<element name="SW37" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="40.35" y="68.55" rot="R180"/>
+<element name="SW38" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="58.4" y="69.05" rot="R180"/>
+<element name="SW39" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="78.6" y="68.8" rot="R180"/>
+<element name="SW40" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="97.9" y="69.35" rot="R180"/>
+<element name="SW41" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="117.3" y="68.55" rot="R180"/>
+<element name="SW42" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="136.15" y="68.8" rot="R180"/>
+<element name="SW43" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="122.3" y="182.75" rot="R180"/>
+<element name="SW44" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="208.85" y="211.7" rot="R180"/>
+<element name="SW45" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="180" y="211.7" rot="R180"/>
+<element name="SW46" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="151.15" y="211.7" rot="R180"/>
+<element name="SW47" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="122.3" y="211.7" rot="R180"/>
+<element name="SW48" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="208.85" y="240.65" rot="R180"/>
+<element name="SW49" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="180" y="240.65" rot="R180"/>
+<element name="SW50" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="151.15" y="240.65" rot="R180"/>
+<element name="SW51" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="122.3" y="240.65" rot="R180"/>
+<element name="SW52" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="208.85" y="269.6" rot="R180"/>
+<element name="SW53" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="180" y="269.6" rot="R180"/>
+<element name="SW54" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="-99.35" y="-441.2"/>
+<element name="SW55" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="-70.5" y="-441.2"/>
+<element name="SW56" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="-41.65" y="-441.2"/>
+<element name="SW57" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="-99.35" y="-470.15"/>
+<element name="SW58" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="-70.5" y="-470.15"/>
+<element name="SW59" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="-41.65" y="-470.15"/>
+<element name="SW60" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="-99.35" y="-499.1"/>
+<element name="SW61" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="-70.5" y="-499.1"/>
+<element name="SW62" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="-41.65" y="-499.1"/>
+<element name="SW63" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="-99.35" y="-528.05"/>
+<element name="SW64" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="-70.5" y="-528.05"/>
+<element name="SW65" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="-41.65" y="-528.05"/>
+<element name="SW66" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="-99.35" y="-557"/>
+<element name="SW67" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="-70.5" y="-557"/>
+<element name="SW68" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="-99.35" y="-585.95"/>
+<element name="SW69" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="-70.5" y="-585.95"/>
+<element name="SW70" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="-41.65" y="-585.95"/>
+<element name="SW71" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="-99.35" y="-614.9"/>
+<element name="SW72" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="-70.5" y="-614.9"/>
+<element name="SW73" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="-41.65" y="-614.9"/>
+<element name="SW74" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="-99.35" y="-643.85"/>
+<element name="SW75" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="-70.5" y="-643.85"/>
+<element name="SW76" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="-41.65" y="-643.85"/>
+<element name="SW77" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="-99.35" y="-672.8"/>
+<element name="SW78" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="-70.5" y="-672.8"/>
+<element name="SW79" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="-41.65" y="-672.8"/>
+<element name="SW80" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="-99.35" y="-701.75"/>
+<element name="SW81" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="-70.5" y="-701.75"/>
+<element name="SW82" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="-99.35" y="-730.7"/>
+<element name="SW83" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="-70.5" y="-730.7"/>
+<element name="SW84" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="-41.65" y="-730.7"/>
+<element name="SW85" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="-99.35" y="-759.65"/>
+<element name="SW86" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="-70.5" y="-759.65"/>
+<element name="SW87" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="-41.65" y="-759.65"/>
+<element name="SW88" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="-99.35" y="-788.6"/>
+<element name="SW89" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="-70.5" y="-788.6"/>
+<element name="SW90" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="-41.65" y="-788.6"/>
+<element name="SW91" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="-99.35" y="-817.55"/>
+<element name="SW92" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="-70.5" y="-817.55"/>
 </elements>
 <signals>
 <signal name="VCC3V3">
