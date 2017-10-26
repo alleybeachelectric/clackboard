@@ -2303,9 +2303,9 @@ design rules under a new name.</description>
 <element name="SW53" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="364.2" y="68.4" rot="R180"/>
 <element name="SW54" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="19.7" y="50.1" rot="R180"/>
 <element name="SW55" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="41.3" y="50.7" rot="R180"/>
-<element name="SW56" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="403.05" y="5.05" rot="R180"/>
-<element name="SW57" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="460.75" y="34" rot="R180"/>
-<element name="SW58" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="431.9" y="34" rot="R180"/>
+<element name="SW56" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="64.7" y="50.25" rot="R180"/>
+<element name="SW57" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="82.45" y="48.8" rot="R180"/>
+<element name="SW58" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="102.5" y="50.5" rot="R180"/>
 <element name="SW59" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="403.05" y="34" rot="R180"/>
 <element name="SW60" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="460.75" y="62.95" rot="R180"/>
 <element name="SW61" library="ALLEYBEACH_LIB" package="CHERRY_MX" value="CHERRY_MX" x="431.9" y="62.95" rot="R180"/>
