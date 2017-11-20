@@ -9334,6 +9334,8 @@ W = angled&lt;p&gt;
 <sheets>
 <sheet>
 <plain>
+<text x="325.12" y="40.64" size="1.778" layer="97">change size of passives to 0603 or 0402 when possible</text>
+<text x="327.66" y="25.4" size="6.4516" layer="97">MCU</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
