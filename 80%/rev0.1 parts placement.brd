@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.1">
+<eagle version="8.4.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -2426,10 +2426,10 @@ design rules under a new name.</description>
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="1"/>
-<param name="checkGrid" value="0"/>
 <param name="checkAngle" value="0"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="1"/>
+<param name="checkStop" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -3601,6 +3601,17 @@ design rules under a new name.</description>
 <via x="7.112" y="32.512" extent="1-16" drill="0.3"/>
 <via x="12.192" y="26.67" extent="1-16" drill="0.3"/>
 <via x="107.442" y="69.088" extent="1-16" drill="0.3"/>
+<via x="345.741" y="121.8475" extent="1-16" drill="0.3"/>
+<via x="357.425" y="121.8475" extent="1-16" drill="0.3"/>
+<via x="350.313" y="96.4475" extent="1-16" drill="0.3"/>
+<via x="284.781" y="94.1615" extent="1-16" drill="0.3"/>
+<via x="282.749" y="94.1615" extent="1-16" drill="0.3"/>
+<via x="282.749" y="87.8115" extent="1-16" drill="0.3"/>
+<via x="284.781" y="87.8115" extent="1-16" drill="0.3"/>
+<via x="282.749" y="81.7155" extent="1-16" drill="0.3"/>
+<via x="284.781" y="81.7155" extent="1-16" drill="0.3"/>
+<via x="282.702" y="71.374" extent="1-16" drill="0.3"/>
+<via x="284.734" y="71.374" extent="1-16" drill="0.3"/>
 </signal>
 <signal name="USB1_N">
 <contactref element="J1" pad="D-"/>
@@ -4997,7 +5008,7 @@ design rules under a new name.</description>
 <wire x1="364.998" y1="38.862" x2="366.136" y2="40" width="0.1524" layer="16"/>
 <wire x1="366.844371875" y1="40" x2="366.136" y2="40" width="0.1524" layer="16"/>
 <wire x1="366.844371875" y1="40" x2="366.85" y2="40" width="0.1524" layer="16"/>
-<wire x1="21.85" y1="40" x2="27.564" y2="40" width="0.6096" layer="16"/>
+<wire x1="27.564" y1="40" x2="21.85" y2="40" width="0.6096" layer="16"/>
 <wire x1="27.564" y1="40" x2="28.956" y2="38.608" width="0.6096" layer="16"/>
 <wire x1="216.8742125" y1="38.608" x2="236.838825" y2="38.608" width="0.6096" layer="16"/>
 <wire x1="201.82341875" y1="38.608" x2="216.8742125" y2="38.608" width="0.6096" layer="16"/>
