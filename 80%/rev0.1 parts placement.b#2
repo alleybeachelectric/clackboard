@@ -714,11 +714,15 @@ Andrew Kurtz</text>
 <hole x="372" y="3" drill="3.2"/>
 <hole x="3" y="3" drill="3.2"/>
 <hole x="145" y="69" drill="3.2"/>
-<hole x="251" y="53" drill="3.2"/>
 <hole x="328" y="52" drill="3.2"/>
 <hole x="241" y="25" drill="3.2"/>
 <hole x="206" y="118" drill="3.2"/>
 <hole x="121" y="119" drill="3.2"/>
+<hole x="254" y="92" drill="3.2"/>
+<hole x="29" y="63" drill="3.2"/>
+<hole x="154" y="91" drill="3.2"/>
+<hole x="163" y="6" drill="3.2"/>
+<hole x="104" y="6" drill="3.2"/>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">
