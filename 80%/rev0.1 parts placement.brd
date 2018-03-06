@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="TOP" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="GND" color="1" fill="3" visible="no" active="no"/>
@@ -36,8 +36,8 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -46,17 +46,17 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="5" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -158,10 +158,14 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="375.5" y2="0" width="0" layer="20"/>
-<wire x1="375.5" y1="0" x2="375.5" y2="123.75" width="0" layer="20"/>
-<wire x1="375.5" y1="123.75" x2="0" y2="123.75" width="0" layer="20"/>
-<wire x1="0" y1="123.75" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="1.27" y1="0" x2="374.23" y2="0" width="0" layer="20"/>
+<wire x1="374.23" y1="0" x2="375.5" y2="1.27" width="0" layer="20" curve="90"/>
+<wire x1="375.5" y1="1.27" x2="375.5" y2="122.48" width="0" layer="20"/>
+<wire x1="375.5" y1="122.48" x2="374.23" y2="123.75" width="0" layer="20" curve="90"/>
+<wire x1="374.23" y1="123.75" x2="1.27" y2="123.75" width="0" layer="20"/>
+<wire x1="1.27" y1="123.75" x2="0" y2="122.48" width="0" layer="20" curve="90"/>
+<wire x1="0" y1="122.48" x2="0" y2="1.27" width="0" layer="20"/>
+<wire x1="0" y1="1.27" x2="1.27" y2="0" width="0" layer="20" curve="90"/>
 <wire x1="0" y1="0" x2="375.5" y2="0" width="0.001" layer="50"/>
 <wire x1="375.5" y1="0" x2="375.5" y2="123.75" width="0.001" layer="50"/>
 <wire x1="375.5" y1="123.75" x2="0" y2="123.75" width="0.001" layer="50"/>
@@ -708,6 +712,21 @@
 Scott Griffitts</text>
 <text x="30.861" y="108.077" size="2.54" layer="21" ratio="12" align="center">Software:
 Andrew Kurtz</text>
+<hole x="372" y="3" drill="3.4"/>
+<hole x="373" y="121" drill="3.4"/>
+<hole x="3" y="121" drill="3.4"/>
+<hole x="3" y="3" drill="3.4"/>
+<hole x="122" y="115" drill="3.4"/>
+<hole x="207" y="115" drill="3.4"/>
+<hole x="252" y="88" drill="3.4"/>
+<hole x="93" y="53" drill="3.4"/>
+<hole x="169" y="52" drill="3.4"/>
+<hole x="165" y="6" drill="3.4"/>
+<hole x="80" y="6" drill="3.4"/>
+<hole x="290" y="6" drill="3.4"/>
+<hole x="245" y="31" drill="3.4"/>
+<hole x="329" y="52" drill="3.4"/>
+<hole x="307" y="28" drill="3.4"/>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">

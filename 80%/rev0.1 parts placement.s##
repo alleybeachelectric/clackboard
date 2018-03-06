@@ -13022,6 +13022,10 @@ W = angled&lt;p&gt;
 <text x="327.66" y="25.4" size="6.4516" layer="97">MCU</text>
 <text x="325.12" y="38.1" size="1.778" layer="97">VMCU needs to be no more than 3.6V</text>
 <text x="337.82" y="200.66" size="1.778" layer="97">3V3 Fixed Output</text>
+<wire x1="312.42" y1="231.14" x2="312.42" y2="198.12" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="312.42" y1="198.12" x2="274.32" y2="198.12" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="274.32" y1="198.12" x2="274.32" y2="231.14" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="274.32" y1="231.14" x2="312.42" y2="231.14" width="0.1524" layer="94" style="shortdash"/>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -13029,8 +13033,8 @@ W = angled&lt;p&gt;
 <instance part="U$1" gate="M" x="43.18" y="256.54"/>
 <instance part="SUPPLY1" gate="+5V" x="50.8" y="256.54"/>
 <instance part="SUPPLY2" gate="+5V" x="58.42" y="256.54"/>
-<instance part="J1" gate="G$1" x="271.78" y="215.9" rot="MR0"/>
-<instance part="U$7" gate="M" x="276.86" y="210.82" rot="MR0"/>
+<instance part="J1" gate="G$1" x="287.02" y="215.9" rot="MR0"/>
+<instance part="U$7" gate="M" x="292.1" y="210.82" rot="MR0"/>
 <instance part="U1" gate="G$1" x="66.04" y="157.48"/>
 <instance part="C1" gate="G$1" x="134.62" y="175.26"/>
 <instance part="C2" gate="G$1" x="142.24" y="175.26"/>
@@ -13052,8 +13056,8 @@ W = angled&lt;p&gt;
 <instance part="U$5" gate="M" x="106.68" y="246.38"/>
 <instance part="C10" gate="G$1" x="101.6" y="127" rot="R90"/>
 <instance part="C11" gate="G$1" x="101.6" y="134.62" rot="R90"/>
-<instance part="C12" gate="G$1" x="287.02" y="213.36" rot="MR0"/>
-<instance part="U$6" gate="M" x="287.02" y="203.2" rot="MR0"/>
+<instance part="C12" gate="G$1" x="302.26" y="213.36" rot="MR0"/>
+<instance part="U$6" gate="M" x="302.26" y="203.2" rot="MR0"/>
 <instance part="SJ1" gate="G$1" x="149.86" y="208.28" rot="R90"/>
 <instance part="SUPPLY8" gate="+5V" x="157.48" y="213.36"/>
 <instance part="TP1" gate="G$1" x="142.24" y="210.82" rot="R180"/>
@@ -13098,8 +13102,8 @@ W = angled&lt;p&gt;
 <net name="GND" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="GND@2"/>
-<wire x1="274.32" y1="215.9" x2="276.86" y2="215.9" width="0.1524" layer="91"/>
-<wire x1="276.86" y1="215.9" x2="276.86" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="215.9" x2="292.1" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="215.9" x2="292.1" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="U$7" gate="M" pin="GND"/>
 </segment>
 <segment>
@@ -13143,7 +13147,7 @@ W = angled&lt;p&gt;
 </segment>
 <segment>
 <pinref part="C12" gate="G$1" pin="2"/>
-<wire x1="287.02" y1="208.28" x2="287.02" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="302.26" y1="208.28" x2="302.26" y2="205.74" width="0.1524" layer="91"/>
 <pinref part="U$6" gate="M" pin="GND"/>
 </segment>
 <segment>
@@ -13262,8 +13266,8 @@ W = angled&lt;p&gt;
 <net name="USB1_N" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="D-"/>
-<wire x1="274.32" y1="220.98" x2="284.48" y2="220.98" width="0.1524" layer="91"/>
-<label x="284.48" y="220.98" size="1.778" layer="95" rot="MR0"/>
+<wire x1="289.56" y1="220.98" x2="299.72" y2="220.98" width="0.1524" layer="91"/>
+<label x="299.72" y="220.98" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
 <label x="134.62" y="198.12" size="1.778" layer="95"/>
@@ -13274,8 +13278,8 @@ W = angled&lt;p&gt;
 <net name="USB1_P" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="D+"/>
-<wire x1="274.32" y1="223.52" x2="284.48" y2="223.52" width="0.1524" layer="91"/>
-<label x="284.48" y="223.52" size="1.778" layer="95" rot="MR0"/>
+<wire x1="289.56" y1="223.52" x2="299.72" y2="223.52" width="0.1524" layer="91"/>
+<label x="299.72" y="223.52" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
 <wire x1="134.62" y1="200.66" x2="142.24" y2="200.66" width="0.1524" layer="91"/>
@@ -13286,13 +13290,13 @@ W = angled&lt;p&gt;
 <net name="VBUS1" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="VBUS"/>
-<wire x1="274.32" y1="218.44" x2="287.02" y2="218.44" width="0.1524" layer="91"/>
-<label x="284.48" y="218.44" size="1.778" layer="95" rot="MR0"/>
+<wire x1="289.56" y1="218.44" x2="302.26" y2="218.44" width="0.1524" layer="91"/>
+<label x="299.72" y="218.44" size="1.778" layer="95" rot="MR0"/>
 <pinref part="C12" gate="G$1" pin="1"/>
-<wire x1="287.02" y1="218.44" x2="287.02" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="302.26" y1="218.44" x2="302.26" y2="215.9" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="IN"/>
-<wire x1="287.02" y1="218.44" x2="325.12" y2="218.44" width="0.1524" layer="91"/>
-<junction x="287.02" y="218.44"/>
+<wire x1="302.26" y1="218.44" x2="325.12" y2="218.44" width="0.1524" layer="91"/>
+<junction x="302.26" y="218.44"/>
 <pinref part="U2" gate="G$1" pin="SHDN"/>
 <wire x1="325.12" y1="218.44" x2="332.74" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="332.74" y1="218.44" x2="335.28" y2="218.44" width="0.1524" layer="91"/>
