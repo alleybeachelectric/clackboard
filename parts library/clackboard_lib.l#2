@@ -11,10 +11,14 @@
 <setting verticaltext="up"/>
 </settings>
 <<<<<<< HEAD
+<grid distance="0.05" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+=======
+<<<<<<< HEAD
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 =======
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 >>>>>>> b4dd879aaf173cf3e526f044fa721c085dc9de02
+>>>>>>> 5b4107e87d1bf511e2de6809f1f029089b7437ae
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -1525,8 +1529,8 @@
 <wire x1="0" y1="14.55" x2="11.5" y2="14.55" width="0.1524" layer="48"/>
 <text x="0" y="19.65" size="1.27" layer="25">&gt;NAME</text>
 <text x="0" y="-2.45" size="1.27" layer="27">&gt;VALUE</text>
-<smd name="9" x="1" y="0.65" dx="1.1" dy="1.6" layer="1"/>
-<smd name="16" x="10.7" y="0.65" dx="1.1" dy="1.6" layer="1"/>
+<smd name="9" x="0.8" y="1" dx="1.1" dy="1.6" layer="1"/>
+<smd name="16" x="10.7" y="1" dx="1.1" dy="1.6" layer="1"/>
 <polygon width="0.1524" layer="41">
 <vertex x="1.2" y="13.1" curve="90"/>
 <vertex x="0.8" y="13.5" curve="90"/>

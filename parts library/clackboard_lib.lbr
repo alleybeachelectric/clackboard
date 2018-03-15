@@ -2740,6 +2740,8 @@ DET</text>
 <text x="0" y="-2.54" size="1.778" layer="95">&gt;VALUE</text>
 >>>>>>> b4dd879aaf173cf3e526f044fa721c085dc9de02
 </symbol>
+<symbol name="DMG3415">
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="PIC32MK1024MCF100" prefix="U">

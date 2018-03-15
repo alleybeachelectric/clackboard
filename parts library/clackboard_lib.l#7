@@ -11,10 +11,14 @@
 <setting verticaltext="up"/>
 </settings>
 <<<<<<< HEAD
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+=======
+<<<<<<< HEAD
 <grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 =======
 <grid distance="0.05" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 >>>>>>> b4dd879aaf173cf3e526f044fa721c085dc9de02
+>>>>>>> 5b4107e87d1bf511e2de6809f1f029089b7437ae
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -2731,7 +2735,12 @@ DET</text>
 <wire x1="0" y1="38.1" x2="0" y2="0" width="0.1524" layer="94"/>
 <text x="0" y="38.1" size="1.778" layer="95">&gt;NAME</text>
 <text x="0" y="-2.54" size="1.778" layer="95">&gt;VALUE</text>
+<<<<<<< HEAD
+<pin name="N2" x="15.24" y="-2.54" length="short" rot="R90"/>
+<pin name="M1" x="12.7" y="-2.54" length="short" rot="R90"/>
+=======
 >>>>>>> b4dd879aaf173cf3e526f044fa721c085dc9de02
+>>>>>>> 5b4107e87d1bf511e2de6809f1f029089b7437ae
 </symbol>
 </symbols>
 <devicesets>

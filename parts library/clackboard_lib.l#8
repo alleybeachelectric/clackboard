@@ -1525,7 +1525,12 @@
 <smd name="M2" x="10.706" y="12.7" dx="0.8" dy="1.5" layer="1" roundness="100"/>
 <text x="5.8" y="14.7" size="1.27" layer="48" align="bottom-center">BOARD EDGE</text>
 <wire x1="0" y1="14.55" x2="11.5" y2="14.55" width="0.1524" layer="48"/>
+<<<<<<< HEAD
+<text x="0" y="19.65" size="1.27" layer="25">&gt;NAME</text>
+<text x="0" y="-2.45" size="1.27" layer="27">&gt;VALUE</text>
+=======
 >>>>>>> b4dd879aaf173cf3e526f044fa721c085dc9de02
+>>>>>>> 5b4107e87d1bf511e2de6809f1f029089b7437ae
 </package>
 </packages>
 <symbols>

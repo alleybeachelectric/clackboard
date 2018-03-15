@@ -10,7 +10,11 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
+<<<<<<< HEAD
+<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+=======
 <grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+>>>>>>> 5b4107e87d1bf511e2de6809f1f029089b7437ae
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -1525,7 +1529,12 @@
 <wire x1="0" y1="14.55" x2="11.5" y2="14.55" width="0.1524" layer="48"/>
 <text x="0" y="19.65" size="1.27" layer="25">&gt;NAME</text>
 <text x="0" y="-2.45" size="1.27" layer="27">&gt;VALUE</text>
+<<<<<<< HEAD
+<smd name="P$1" x="1" y="0.65" dx="1.1" dy="1.6" layer="1"/>
+<smd name="P$2" x="10.7" y="0.65" dx="1.1" dy="1.6" layer="1"/>
+=======
 >>>>>>> b4dd879aaf173cf3e526f044fa721c085dc9de02
+>>>>>>> 5b4107e87d1bf511e2de6809f1f029089b7437ae
 </package>
 </packages>
 <symbols>
@@ -3381,6 +3390,11 @@ DET</text>
 </devices>
 </deviceset>
 <<<<<<< HEAD
+<deviceset name="RN4020" prefix="U">
+<gates>
+<gate name="G$1" symbol="RN4020" x="0" y="0"/>
+=======
+<<<<<<< HEAD
 <deviceset name="PIC24FJ128GB204" prefix="U">
 <gates>
 <gate name="G$1" symbol="PIC24FJ128GB204" x="0" y="0"/>
@@ -3791,6 +3805,7 @@ DET</text>
 </deviceset>
 <deviceset name="2X4_GOLD_FINGER">
 <gates>
+>>>>>>> 5b4107e87d1bf511e2de6809f1f029089b7437ae
 </gates>
 <devices>
 <device name="">
@@ -3800,8 +3815,11 @@ DET</text>
 </device>
 </devices>
 </deviceset>
+<<<<<<< HEAD
+=======
 =======
 >>>>>>> b4dd879aaf173cf3e526f044fa721c085dc9de02
+>>>>>>> 5b4107e87d1bf511e2de6809f1f029089b7437ae
 </devicesets>
 </library>
 </drawing>

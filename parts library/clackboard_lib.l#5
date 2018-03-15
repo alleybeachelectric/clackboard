@@ -1488,12 +1488,12 @@
 <text x="-7.62" y="-7.62" size="1.778" layer="27">&gt;VALUE</text>
 </package>
 <package name="RN4020">
-<smd name="9" x="2.7432" y="-0.254" dx="0.8" dy="1.5" layer="1" rot="R180"/>
-<smd name="10" x="3.9624" y="-0.254" dx="0.8" dy="1.5" layer="1"/>
-<smd name="11" x="5.1562" y="-0.254" dx="0.8" dy="1.5" layer="1"/>
-<smd name="12" x="6.35" y="-0.254" dx="0.8" dy="1.5" layer="1"/>
-<smd name="13" x="7.5438" y="-0.254" dx="0.8" dy="1.5" layer="1"/>
-<smd name="14" x="8.7376" y="-0.254" dx="0.8" dy="1.5" layer="1"/>
+<smd name="10" x="2.7432" y="-0.254" dx="0.8" dy="1.5" layer="1" rot="R180"/>
+<smd name="11" x="3.9624" y="-0.254" dx="0.8" dy="1.5" layer="1"/>
+<smd name="12" x="5.1562" y="-0.254" dx="0.8" dy="1.5" layer="1"/>
+<smd name="13" x="6.35" y="-0.254" dx="0.8" dy="1.5" layer="1"/>
+<smd name="14" x="7.5438" y="-0.254" dx="0.8" dy="1.5" layer="1"/>
+<smd name="15" x="8.7376" y="-0.254" dx="0.8" dy="1.5" layer="1"/>
 <smd name="8" x="0.254" y="2.4892" dx="0.8" dy="1.5" layer="1" rot="R90"/>
 <smd name="6" x="0.254" y="4.9022" dx="0.8" dy="1.5" layer="1" rot="R90"/>
 <smd name="5" x="0.254" y="6.096" dx="0.8" dy="1.5" layer="1" rot="R90"/>
@@ -1502,14 +1502,14 @@
 <smd name="3" x="0.254" y="8.509" dx="0.8" dy="1.5" layer="1" rot="R90"/>
 <smd name="2" x="0.254" y="9.7028" dx="0.8" dy="1.5" layer="1" rot="R90"/>
 <smd name="1" x="0.254" y="10.8966" dx="0.8" dy="1.5" layer="1" rot="R90"/>
-<smd name="15" x="11.2522" y="2.4892" dx="0.8" dy="1.5" layer="1" rot="R90"/>
-<smd name="16" x="11.2522" y="3.7084" dx="0.8" dy="1.5" layer="1" rot="R90"/>
-<smd name="17" x="11.2522" y="4.9022" dx="0.8" dy="1.5" layer="1" rot="R90"/>
-<smd name="18" x="11.2522" y="6.096" dx="0.8" dy="1.5" layer="1" rot="R90"/>
-<smd name="19" x="11.2522" y="7.2898" dx="0.8" dy="1.5" layer="1" rot="R90"/>
-<smd name="20" x="11.2522" y="8.509" dx="0.8" dy="1.5" layer="1" rot="R90"/>
-<smd name="21" x="11.2522" y="9.7028" dx="0.8" dy="1.5" layer="1" rot="R90"/>
-<smd name="22" x="11.2522" y="10.8966" dx="0.8" dy="1.5" layer="1" rot="R90"/>
+<smd name="17" x="11.2522" y="2.4892" dx="0.8" dy="1.5" layer="1" rot="R90"/>
+<smd name="18" x="11.2522" y="3.7084" dx="0.8" dy="1.5" layer="1" rot="R90"/>
+<smd name="19" x="11.2522" y="4.9022" dx="0.8" dy="1.5" layer="1" rot="R90"/>
+<smd name="20" x="11.2522" y="6.096" dx="0.8" dy="1.5" layer="1" rot="R90"/>
+<smd name="21" x="11.2522" y="7.2898" dx="0.8" dy="1.5" layer="1" rot="R90"/>
+<smd name="22" x="11.2522" y="8.509" dx="0.8" dy="1.5" layer="1" rot="R90"/>
+<smd name="23" x="11.2522" y="9.7028" dx="0.8" dy="1.5" layer="1" rot="R90"/>
+<smd name="24" x="11.2522" y="10.8966" dx="0.8" dy="1.5" layer="1" rot="R90"/>
 <wire x1="0" y1="0" x2="11.5062" y2="0" width="0.1524" layer="21"/>
 <wire x1="11.5062" y1="0" x2="11.5062" y2="14.5542" width="0.1524" layer="21"/>
 <wire x1="11.5062" y1="14.5542" x2="0" y2="14.5542" width="0.1524" layer="21"/>
@@ -1529,9 +1529,14 @@
 <wire x1="0" y1="14.55" x2="11.5" y2="14.55" width="0.1524" layer="48"/>
 <text x="0" y="19.65" size="1.27" layer="25">&gt;NAME</text>
 <text x="0" y="-2.45" size="1.27" layer="27">&gt;VALUE</text>
+<<<<<<< HEAD
+<smd name="9" x="1" y="0.65" dx="1.1" dy="1.6" layer="1"/>
+<smd name="16" x="10.7" y="0.65" dx="1.1" dy="1.6" layer="1"/>
+=======
 <smd name="P$1" x="1" y="0.65" dx="1.1" dy="1.6" layer="1"/>
 <smd name="P$2" x="10.7" y="0.65" dx="1.1" dy="1.6" layer="1"/>
 >>>>>>> b4dd879aaf173cf3e526f044fa721c085dc9de02
+>>>>>>> 5b4107e87d1bf511e2de6809f1f029089b7437ae
 </package>
 </packages>
 <symbols>
